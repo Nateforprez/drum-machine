@@ -2,26 +2,26 @@ import React from 'react';
 import './DrumMachine.css'; 
 
 const audioFileNames = [
-    {name: "Heater 1", file: "/audio-files/Heater-1.mp3"}, 
-    {name: "Heater 2", file: "/audio-files/Heater-2.mp3"}, 
-    {name: "Heater 3", file: "/audio-files/Heater-3.mp3"}, 
-    {name: "Heater 4", file: "/audio-files/Heater-4.mp3"}, 
-    {name: "Clap", file: "/audio-files/Clap.mp3"}, 
-    {name: "Open HH", file: "/audio-files/OpenHH.mp3"}, 
-    {name: "Kick n' Hat", file: "/audio-files/Kick_n_Hat.mp3"}, 
-    {name: "Kick", file: "/audio-files/Kick.mp3"}, 
-    {name: "Closed HH", file: "/audio-files/ClosedHH.mp3"}
+    {name: "Heater 1", file: "./audio-files/Heater-1.mp3"}, 
+    {name: "Heater 2", file: "./audio-files/Heater-2.mp3"}, 
+    {name: "Heater 3", file: "./audio-files/Heater-3.mp3"}, 
+    {name: "Heater 4", file: "./audio-files/Heater-4.mp3"}, 
+    {name: "Clap", file: "./audio-files/Clap.mp3"}, 
+    {name: "Open HH", file: "./audio-files/OpenHH.mp3"}, 
+    {name: "Kick n' Hat", file: "./audio-files/Kick_n_Hat.mp3"}, 
+    {name: "Kick", file: "./audio-files/Kick.mp3"}, 
+    {name: "Closed HH", file: "./audio-files/ClosedHH.mp3"}
 ]
 const audioFileBankNames = [
-    {name: "Chord 1", file: "/audio-files/Heater-1.mp3"}, 
-    {name: "Chord 2", file: "/audio-files/Heater-2.mp3"}, 
-    {name: "Chord 3", file: "/audio-files/Heater-3.mp3"},
-    {name: "Shaker", file: "/audio-files/Heater-4.mp3"}, 
-    {name: "Clap", file: "/audio-files/Clap.mp3"}, 
-    {name: "Open H", file: "/audio-files/OpenHH.mp3"}, 
-    {name: "Closed H", file: "/audio-files/Kick_n_Hat.mp3"}, 
-    {name: "Punchy Kick", file: "/audio-files/Kick.mp3"}, 
-    {name: "Side Stick", file: "/audio-files/ClosedHH.mp3"}
+    {name: "Chord 1", file: "./audio-files/Heater-1.mp3"}, 
+    {name: "Chord 2", file: "./audio-files/Heater-2.mp3"}, 
+    {name: "Chord 3", file: "./audio-files/Heater-3.mp3"},
+    {name: "Shaker", file: "./audio-files/Heater-4.mp3"}, 
+    {name: "Clap", file: "./audio-files/Clap.mp3"}, 
+    {name: "Open H", file: "./audio-files/OpenHH.mp3"}, 
+    {name: "Closed H", file: "./audio-files/Kick_n_Hat.mp3"}, 
+    {name: "Punchy Kick", file: "./audio-files/Kick.mp3"}, 
+    {name: "Side Stick", file: "./audio-files/ClosedHH.mp3"}
 ]
 
 class DrumMachine extends React.Component {
